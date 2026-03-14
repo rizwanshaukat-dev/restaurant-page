@@ -1,52 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto",sans-serif;
-    color: white;
-}
-body{
-    background-image: url("/src/images/bg-image.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-    width:80vw;
-    height: 15vh;
-    margin: 15px 20px;
-}
-nav .logo-container img{
-    width: 280px;
-    height: auto;
-    margin-top: 8px;
-}
-nav .nav-btn{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-}
-.nav-btn button{
-    width: 80px;
-    height: 35px;
-    margin: 0 10px;
-    border: none;
-    background-color: #D6B07B;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-}
 .hero-section{
     display: flex;
     justify-content: space-between;
@@ -56,7 +7,7 @@ nav .nav-btn{
 .hero-section .left-container{
     padding: 15px;
 }
-.hero-section .left-container .title-text{
+.hero-section .left-container .hero-text{
     width: 15ch;
     font-size: 3em;
     font-family: "Montserrat",sans-serif;
