@@ -38,34 +38,13 @@ export default function menu() {
             img: lassi,
         }
     ];
-    const nav = document.getElementById("nav");
-    
-    // const logoCont = document.createElement("div")
-    // logoCont.classList.add("logo-container");
-    // const logoImg = new Image();
-    // logoImg.src = logo;
-    // logoCont.appendChild(logoImg);
-    // const navBtn = document.createElement("div");
-    // navBtn.classList.add("nav-btn");
-    // const btn1 = document.createElement("button")
-    // btn1.id = "home-btn";
-    // btn1.textContent = "Home";
-    // const btn2 = document.createElement("button")
-    // btn2.id = "menu-btn";
-    // btn2.textContent = "Menu";
-    // const btn3 = document.createElement("button")
-    // btn3.id = "about-btn";
-    // btn3.textContent = "About"
-
-    // navBtn.append(btn1, btn2, btn3);
-    // nav.append(logoCont, navBtn);
     const contentDiv = document.getElementById("content");
     const titleText = document.createElement("p");
     titleText.className = "title-text";
     titleText.textContent = "Menu";
     const menuContainer = document.createElement("div");
     menuContainer.className = "menu-card-container";
-    //Card Template
+
     const card = document.createElement("div")
     card.className = 'card';
 
