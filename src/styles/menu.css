@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    color: white;
+}
+body{
+    background-image: url("/src/images/bg-image.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    width:80vw;
+    height: 15vh;
+    margin: 15px 20px;
+}
+nav .logo-container img{
+    width: 280px;
+    height: auto;
+    margin-top: 8px;
+}
+nav .nav-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.nav-btn button{
+    width: 80px;
+    height: 35px;
+    margin: 0 10px;
+    border: none;
+    background-color: #D6B07B;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title-text{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #D6B07B;
+    text-align: center;
+}
+.menu-card-container .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-card-container .odd{
+    flex-direction: row-reverse;
+}
+.menu-card-container .card .dish-name{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #ffcd42;
+    margin: 5px 0;
+}
+.menu-card-container .card .description{
+    width: 60ch;
+    margin: 5px 0;
+}
+.menu-card-container .card .description-container button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 40px;
+    background-color: azure;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.menu-card-container .card img{
+    width: 30%;
+}
