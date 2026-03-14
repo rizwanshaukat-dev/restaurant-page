@@ -12,7 +12,7 @@ export default {
     filename: "main.js",
     path: resolve(__dirname, "dist"),
     clean: true,
-    assetModuleFilename: "images/[name][hash][ext]" // images will go into /images
+    assetModuleFilename: "images/[name][hash][ext]" 
   },
   devtool: "eval-source-map",
   devServer: {
@@ -37,7 +37,7 @@ export default {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource", // let webpack handle images
+        type: "asset/resource",
       },
     ],
   },
