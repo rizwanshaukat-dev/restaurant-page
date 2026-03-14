@@ -1,6 +1,5 @@
 import './styles/menu.css';
-import logo from './images/brand-logo.png';
-import biryani from './images/chicken-birayni.png';
+import biryani from './images/chicken-biryani.png';
 import naan from './images/garlic-naan.png';
 import lassi from './images/mango-lassi.png';
 import kebab from './images/seekh-kebab.png';
@@ -40,26 +39,26 @@ export default function menu() {
         }
     ];
     const nav = document.getElementById("nav");
-    const logoCont = document.createElement("div")
-    logoCont.classList.add("logo-container");
-    const logoImg = new Image();
-    logoImg.src = logo;
-    logoCont.appendChild(logoImg);
-    const navBtn = document.createElement("div");
-    navBtn.classList.add("nav-btn");
-    const btn1 = document.createElement("button")
-    btn1.id = "home-btn";
-    btn1.textContent = "Home";
-    const btn2 = document.createElement("button")
-    btn2.id = "menu-btn";
-    btn2.textContent = "Menu";
-    const btn3 = document.createElement("button")
-    btn3.id = "about-btn";
-    btn3.textContent = "About"
+    
+    // const logoCont = document.createElement("div")
+    // logoCont.classList.add("logo-container");
+    // const logoImg = new Image();
+    // logoImg.src = logo;
+    // logoCont.appendChild(logoImg);
+    // const navBtn = document.createElement("div");
+    // navBtn.classList.add("nav-btn");
+    // const btn1 = document.createElement("button")
+    // btn1.id = "home-btn";
+    // btn1.textContent = "Home";
+    // const btn2 = document.createElement("button")
+    // btn2.id = "menu-btn";
+    // btn2.textContent = "Menu";
+    // const btn3 = document.createElement("button")
+    // btn3.id = "about-btn";
+    // btn3.textContent = "About"
 
-    navBtn.append(btn1, btn2, btn3);
-    nav.append(logoCont, navBtn);
-
+    // navBtn.append(btn1, btn2, btn3);
+    // nav.append(logoCont, navBtn);
     const contentDiv = document.getElementById("content");
     const titleText = document.createElement("p");
     titleText.className = "title-text";
