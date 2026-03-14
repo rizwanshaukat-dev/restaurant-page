@@ -1,0 +1,25 @@
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 80ch;
+    height: 75vh;
+}
+.about-container p{
+    width: 50ch;
+    font-size: 1.3rem;
+    margin: 6px 0 ;
+}
+.about-container span{
+    font-weight: 600;
+    color: #D6B07B;
+}
